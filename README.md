@@ -26,8 +26,8 @@ DVC
     ├── data.xml 
     ├── data.xml.dvc 
     ├── prepared 
-        ├── test.pkl 
-        ├── train.pkl 
+        ├── test.tsv 
+        ├── train.tsv 
     ├── features 
         ├── test.pkl 
         ├── train.pkl 
