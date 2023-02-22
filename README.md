@@ -118,7 +118,7 @@ cat /tmp/data.xml >> data/data.xml
 cd data
 ```
 ```bash
-dvc add data/data.xml
+dvc add data.xml
 ```
 ```bash
 cd ..
