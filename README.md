@@ -133,7 +133,7 @@ git commit -m "Dataset updated"
 dvc push
 ```
 ```bash
-git log –oneline
+git log --oneline
 ```
 ```bash
 git checkout HEAD^1 data/data.xml.dvc
