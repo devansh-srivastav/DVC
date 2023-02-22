@@ -76,7 +76,7 @@ dvc get https://github.com/iterative/dataset-registry get-started/data.xml -o da
 cd data
 ```
 ```bash
-dvc add data/data.xml
+dvc add data.xml
 ```
 ```bash
 cd ..
@@ -96,6 +96,10 @@ dvc remote add -d 'name' 'path'
 - Git commit the dvc config file.
 ```bash
 git commit .dvc/config -m "Configure remote storage"
+```
+- Push data to remote storage
+```bash
+dvc push
 ```
 - Removing, fetching and versioning the data
 ```bash
